@@ -1,0 +1,58 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:orientation="vertical" android:layout_width="fill_parent"
+android:layout_height="fill_parent" >
+<LinearLayout
+android:orientation="horizontal" android:layout_width="fill_parent"
+android:layout_height="wrap_content"
+android:background="#4A4848" >
+<ImageView 
+    android:layout_width="35dp" 
+    android:layout_height="35dp"
+    android:src="@drawable/arquitectos">
+    
+</ImageView>
+<TextView android:id="@+id/customtitlebar"
+    android:layout_width="wrap_content" 
+    android:layout_height="fill_parent"
+    android:text="haciendo" 
+    android:paddingLeft="8dp"
+    android:textColor="#FFFFFF"
+    android:textSize="20sp"
+    />
+<TextView android:id="@+id/customtitlebar2"
+    android:layout_width="wrap_content" 
+    android:layout_height="fill_parent"
+    android:text="mi" 
+    android:textColor="#33b5e5"
+    android:textSize="20sp"
+ />
+ <TextView android:id="@+id/customtitlebar3"
+    android:layout_width="wrap_content" 
+    android:layout_height="fill_parent"
+    android:text="casa" 
+    android:textColor="#FFFFFF"
+    android:textSize="20sp"
+ /> 
+ <TextView android:id="@+id/customtitlebar4"
+    android:layout_width="wrap_content" 
+    android:layout_height="fill_parent"
+    android:text=".com" 
+    android:textColor="#33b5e5"
+    android:textSize="20sp"
+ />
+</LinearLayout>
+   
+<GridView xmlns:android="http://schemas.android.com/apk/res/android"
+   android:id="@+id/MyGrid"
+   android:layout_width="fill_parent"
+   android:layout_height="fill_parent"
+    android:padding="1dp"
+    android:verticalSpacing="3dp"
+    android:horizontalSpacing="1dp"
+    android:numColumns="3"
+
+    android:stretchMode="columnWidth"
+    android:gravity="center_horizontal"
+    android:background="#ffffff">
+</GridView>
+</LinearLayout>

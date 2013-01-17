@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:orientation="horizontal" android:layout_width="fill_parent"
+android:layout_height="fill_parent" >
+<ImageView 
+    android:layout_width="25dp" 
+    android:layout_height="25dp"
+    android:src="@drawable/arquitectos">
+    
+</ImageView>
+<TextView android:id="@+id/customtitlebar"
+    android:layout_width="wrap_content" 
+    android:layout_height="fill_parent"
+    android:text="haciendo" 
+    android:paddingLeft="3dp"
+    android:textColor="#FFFFFF"
+    />
+<TextView android:id="@+id/customtitlebar2"
+    android:layout_width="wrap_content" 
+    android:layout_height="fill_parent"
+    android:text="mi" 
+    android:textColor="#5CF7F9"
+ />
+ <TextView android:id="@+id/customtitlebar3"
+    android:layout_width="wrap_content" 
+    android:layout_height="fill_parent"
+    android:text="casa" 
+    android:textColor="#FFFFFF"
+ /> 
+ <TextView android:id="@+id/customtitlebar4"
+    android:layout_width="wrap_content" 
+    android:layout_height="fill_parent"
+    android:text=".com" 
+    android:textColor="#5CF7F9"
+ />
+</LinearLayout>
+   
