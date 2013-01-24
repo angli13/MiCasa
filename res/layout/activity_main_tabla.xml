@@ -3,11 +3,13 @@ android:orientation="vertical" android:layout_width="fill_parent"
 android:layout_height="fill_parent" >
 <LinearLayout
 android:orientation="horizontal" android:layout_width="fill_parent"
-android:layout_height="wrap_content"
+android:layout_height="50dp"
 android:background="#4A4848" >
 <ImageView 
     android:layout_width="35dp" 
+	android:layout_gravity="center_vertical"
     android:layout_height="35dp"
+    android:paddingLeft="8dp"
     android:src="@drawable/arquitectos">
     
 </ImageView>
@@ -17,17 +19,20 @@ android:background="#4A4848" >
     android:text="haciendo" 
     android:paddingLeft="8dp"
     android:textColor="#FFFFFF"
+    android:gravity="center_vertical"
     android:textSize="20sp"
     />
 <TextView android:id="@+id/customtitlebar2"
     android:layout_width="wrap_content" 
     android:layout_height="fill_parent"
     android:text="mi" 
+    android:gravity="center_vertical"
     android:textColor="#33b5e5"
     android:textSize="20sp"
  />
  <TextView android:id="@+id/customtitlebar3"
     android:layout_width="wrap_content" 
+    android:gravity="center_vertical"
     android:layout_height="fill_parent"
     android:text="casa" 
     android:textColor="#FFFFFF"
@@ -35,6 +40,7 @@ android:background="#4A4848" >
  /> 
  <TextView android:id="@+id/customtitlebar4"
     android:layout_width="wrap_content" 
+    android:gravity="center_vertical"
     android:layout_height="fill_parent"
     android:text=".com" 
     android:textColor="#33b5e5"

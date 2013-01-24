@@ -4,7 +4,6 @@ import android.app.Activity;
 import android.os.Bundle;
 import android.view.Menu;
 import android.webkit.WebView;
-import android.widget.Toast;
 
 public class Explorador extends Activity {
 	private WebView webView;

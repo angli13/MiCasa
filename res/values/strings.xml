@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <string name="app_name">MiCasa</string>
+    <string name="app_name">Haciendo Mi Casa</string>
     <string name="hello_world">Hello world!</string>
-    <string name="menu_settings">Settings</string>
-    <string name="title_activity_explorador">Explorador</string>
+    <string name="menu_settings">Opciones</string>
+    <string name="title_activity_explorador">Directorio</string>
 
 </resources>
